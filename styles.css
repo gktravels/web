@@ -1,0 +1,89 @@
+* {
+	background-color: #ADD8E6;
+	font-family: Verdana, "Courier New", monospace;
+	font-size: medium;
+	color: black;
+}
+h1, header p {
+	text-align: center;
+	font-weight: bold;
+	clear: both;
+}
+header h1 {
+	font-size: 300%;
+}
+
+header img {
+	display: block;
+	width: 75px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	display: block;
+	text-align: center;
+	margin-left: -4.5em;
+}
+nav li {
+	list-style-type: none;
+	margin-left: 2.5em;
+}
+nav li.current {
+	font-weight: bold;
+}
+
+article h2 { 
+	clear: both;
+	text-align: center;
+	font-size: 115%;
+}
+
+article img {
+	width: 300px;
+	height: 200px;
+}
+article img.vertical {
+	width: 200px;
+	height: 300px;
+}
+article img.square {
+	width: 300px;
+	height: 300px;
+}
+figcaption {
+	font-weight: bold;
+	text-align: center;
+	font-size: 90%;
+}
+
+details summary, details p { color: red }
+details summary::after { content: "(Click to read more)"; color: red; }
+details[open] summary::after { content: "(Click to hide article)"; color: red; }
+
+footer {
+	clear: both;
+	font-weight: bold;
+	text-align: center;
+}
+footer small {
+	font-weight: normal;
+}
+
+/*@media screen and (max-device-width: 767px) {*/
+	
+	#article-1 figure { margin: 0 auto }
+	#article-2 figure { margin: 0 auto }
+	
+	nav li { margin-bottom: 1em }
+/*}
+
+@media screen and (min-device-width: 768px) {
+
+	#article-1 figure { float: left }
+	#article-2 figure { float: right }
+	
+	nav li { display: inline }
+
+}*/
